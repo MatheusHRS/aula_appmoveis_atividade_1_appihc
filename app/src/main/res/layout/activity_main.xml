@@ -11,7 +11,7 @@
         android:id="@+id/txtTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Verifique se você já pode tirar sua CNH"
+        android:text="Verifique seu IMC"
         android:textAlignment="center"
         android:textSize="22sp" />
 
@@ -23,14 +23,24 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:inputType="textPersonName"
-        android:hint="Digite sua idade"/>
+        android:hint="Digite a massa"/>
+
+    <EditText
+        android:id="@+id/edtIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="textPersonName"
+        android:hint="Digite a altura"/>
 
     <Button
         android:id="@+id/btnVerificarIdade"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Verificar" />
+        android:text="Calcular" />
 
     <TextView
         android:id="@+id/txtResultado"
